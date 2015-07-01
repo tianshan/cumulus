@@ -1,4 +1,5 @@
 Cumulus 演示版本
+===
 
 部署
 ---
@@ -10,11 +11,11 @@ dp.sh 为部署脚本
 集群启动
 ---
 
-#集群格式化
+集群格式化
 `hadoop namenode format`
-#集群启动，hdfs bin目录需要在PATH中
+集群启动，hdfs bin目录需要在PATH中
 `start-dfs.sh`
-#简单的写文件
+简单的写文件
 `hadoop fs put local online` 
 
 
